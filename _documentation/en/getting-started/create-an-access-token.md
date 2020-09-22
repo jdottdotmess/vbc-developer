@@ -109,7 +109,7 @@ When you run it, you will receive a JSON response with the `access_token` embedd
 
 ## Token Expiration
 
-* **Access Token** - Access tokens expire expire after 24 hours (86400 seconds). After an access token expires you will need to use the refresh token with the [Refresh grant type](https://oauth.net/2/grant-types/refresh-token/) to request a new access token.
+* **Access Token** - Access tokens expire expire after 24 hours (86400 seconds). After an access token expires you will need to use the refresh token with the [Refresh grant type](https://oauth.net/2/grant-types/refresh-token/) to request a new access token. Other documentation may refer to this as the bearer or bearer token. 
 * **Refresh Token** - Refresh tokens expire after 7 days (604800 seconds). After a refresh token is exchange for an access token the refresh token is no longer usable, and a new refresh token is provided. If the refresh token is not used within the expiration window you will need to reauthenticate.
 
 ## Next Steps
