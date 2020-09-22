@@ -20,5 +20,5 @@ Replace the following placeholder value in the sample code:
 ``` bash
  curl --location --request GET 'https://api.vonage.com/t/vbc.prod/reports/v1/accounts/$account_id/call-logs?start:gte=$start_gte&start:lte=$start_lte&page_size=$page_size&page=$page' \
 --header 'Accept: application/json' \
---header 'Authorization: Bearer $bearer'
+--header 'Authorization: Bearer $bearer_token'
 ```
